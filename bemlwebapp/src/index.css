@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --portage: 
+rgba(137, 162, 249, 1);
+  --spindle: 
+rgba(185, 199, 247, 1);
+  --pattens-blue: 
+rgba(224, 246, 255, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-m: 20px;
+  --font-size-l: 24px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 36px;
+
+  --font-family-montserrat: "Montserrat";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.montserrat-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-semi-bold-portage-20px {
+  color: var(--portage);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-semi-bold-portage-32px {
+  color: var(--portage);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-style: normal;
 }
